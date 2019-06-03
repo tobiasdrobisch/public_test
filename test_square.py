@@ -1,7 +1,7 @@
 #Testfile um CircleCI auszuprobieren
 
 import unittest
-#import square
+import square
 
 class KnownValues(unittest.TestCase):
     def test_square_for_10(self):
