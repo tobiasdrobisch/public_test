@@ -1,5 +1,9 @@
 version: 2
 jobs:
-  build:  # required for runs that don't use workflows
+  build:  
     working_directory: ~/public_test
+    docker:
+      - image: circleci/python:3.6.4
+    steps:
+      - checkout
 
