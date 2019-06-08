@@ -7,8 +7,8 @@ jobs:
     steps:
       - checkout
       - run: 
-        name: Versuch Nummer Eins
-        command: echo "hello world" # run the `echo` command
+            name: Versuch Nummer Eins
+            command: echo "hello world" # run the `echo` command
       - run: 
             name: Versuch Nummer Zwei
             command: echo "hello world2"          
