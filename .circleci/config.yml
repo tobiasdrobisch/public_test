@@ -4,10 +4,15 @@ jobs:
     working_directory: ~/public_test
     docker:
       - image: circleci/python:3.6.4
+    description: 'activate local env and install .[dev] deps'
     steps:
+      
       - checkout
       - run: echo "hello world" # run the `echo` command
-      - run: echo "hello world2"
+      - run: 
+            echo "hello world2"
+            name: Setup local-env and pip install
+            
           #command: |  # use pipenv to install dependencies
            # sudo pip install pipenv
             #pipenv install
