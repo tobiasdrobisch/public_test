@@ -10,9 +10,7 @@ jobs:
       - checkout
       - run: echo "hello world" # run the `echo` command
       - run: 
-            echo "hello world2"
-            name: Setup local-env and pip install
-            
+            echo "hello world2"          
           #command: |  # use pipenv to install dependencies
            # sudo pip install pipenv
             #pipenv install
