@@ -21,9 +21,7 @@ jobs:
       - run:  
             name: python test square
             command: |
-                        
-                        . venv/bin/activate
-                        python3 tests/test_square.py
+                        python3 ~/repo/tests/test_square.py
                         #pipenv run python test_square.py test
 
 #Upload And Store Test Results
