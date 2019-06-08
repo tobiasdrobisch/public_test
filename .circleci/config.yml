@@ -18,10 +18,10 @@ jobs:
             command: |
                       sudo pip install pipenv
                       pipenv install
-      #- run:  
-      #      name: python test square
-      #      command: |
-      #                  pipenv run python test_square.py test
+      - run:  
+            name: python test square
+            command: |
+                        pipenv run python test_square.py test
 
 #Upload And Store Test Results
       #- run:
