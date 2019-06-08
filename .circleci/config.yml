@@ -9,10 +9,10 @@ jobs:
       - checkout
       - run: 
         name: Versuch Nummer Eins
-        echo "hello world" # run the `echo` command
+        command: echo "hello world" # run the `echo` command
       - run: 
             name: Versuch Nummer Zwei
-            echo "hello world2"          
+            command: echo "hello world2"          
           #command: |  # use pipenv to install dependencies
            # sudo pip install pipenv
             #pipenv install
