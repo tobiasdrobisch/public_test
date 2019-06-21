@@ -1,5 +1,6 @@
 #programm um CircleCI auszuprobieren
 
-def square(x):
+def square(5):
+    x = 5
     print(x*x)
     return x*x
