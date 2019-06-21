@@ -6,7 +6,9 @@ script:
 notifications:
 # Emails are sent to the committer's git-configured email address by default,
   email:
-    on_success: change
+    recipients:
+      - tobias.drobisch@gmx.de
+    on_success: always
     on_failure: always
     
   
