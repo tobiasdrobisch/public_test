@@ -2,7 +2,12 @@ language: python
 python:
   - "3.7"
 script:
-  - square
+  - square(3)
+notifications:
+# Emails are sent to the committer's git-configured email address by default,
+  email:
+    on_success: change
+    on_failure: always
     
   
     
